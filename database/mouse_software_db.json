@@ -1,0 +1,46 @@
+{
+    "Logitech G HUB": {
+        "process_names": ["lghub.exe", "lghub_agent.exe", "lghub_updater.exe"],
+        "install_paths": ["LGHUB", "Logitech/G HUB"],
+        "registry_paths": ["SOFTWARE\\Logitech Gaming\\G-HUB"],
+        "alt_names": ["Logi G Hub"],
+        "risk_level": "low"
+    },
+    "Logitech Gaming Software": {
+        "process_names": ["lcore.exe", "lcorserv.exe"],
+        "install_paths": ["Logitech Gaming Software"],
+        "registry_paths": ["SOFTWARE\\Logitech\\Logitech Gaming Software"],
+        "risk_level": "low"
+    },
+    "Razer Synapse": {
+        "process_names": ["rzsynapse.exe", "razercentral.exe", "razerappengine.exe"],
+        "install_paths": ["Razer\\Synapse", "Razer\\Razer Services"],
+        "registry_paths": ["SOFTWARE\\Razer Inc\\Razer Synapse"],
+        "alt_names": ["RazerAppEngine"],
+        "risk_level": "medium"
+    },
+    "Bloody Software": {
+        "process_names": ["bloody6.exe", "bloody7.exe", "bloodytool.exe"],
+        "install_paths": ["Bloody"],
+        "registry_paths": ["SOFTWARE\\Bloody"],
+        "risk_level": "high"
+    },
+    "SteelSeries Engine": {
+        "process_names": ["steelseriesengine.exe", "steelseries-gg.exe"],
+        "install_paths": ["SteelSeries\\SteelSeries Engine"],
+        "risk_level": "low"
+    },
+    "HyperX NGENUITY": {
+        "process_names": ["hyperxngenuity.exe"],
+        "install_paths": ["HyperX\\NGENUITY"],
+        "risk_level": "low"
+    },
+    "Glorious Model O Software": {
+        "process_names": ["OemDrv.exe", "GloriousModelOSoftware.exe"],
+        "install_paths": ["Glorious", "Glorious Model O"],
+        "registry_paths": ["SOFTWARE\\Glorious"],
+        "alt_names": ["Glorious Mouse Software"],
+        "risk_level": "medium",
+        "description": "Glorious Model O mouse için resmi yazılım"
+    }
+}
