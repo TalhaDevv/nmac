@@ -4,7 +4,7 @@
         "install_paths": ["LGHUB", "Logitech/G HUB"],
         "registry_paths": ["SOFTWARE\\Logitech Gaming\\G-HUB"],
         "alt_names": ["Logi G Hub"],
-        "risk_level": "low"
+        "risk_level": "medium"
     },
     "Logitech Gaming Software": {
         "process_names": ["lcore.exe", "lcorserv.exe"],
@@ -17,13 +17,13 @@
         "install_paths": ["Razer\\Synapse", "Razer\\Razer Services"],
         "registry_paths": ["SOFTWARE\\Razer Inc\\Razer Synapse"],
         "alt_names": ["RazerAppEngine"],
-        "risk_level": "medium"
+        "risk_level": "low"
     },
     "Bloody Software": {
         "process_names": ["bloody6.exe", "bloody7.exe", "bloodytool.exe"],
         "install_paths": ["Bloody"],
         "registry_paths": ["SOFTWARE\\Bloody"],
-        "risk_level": "high"
+        "risk_level": "low"
     },
     "SteelSeries Engine": {
         "process_names": ["steelseriesengine.exe", "steelseries-gg.exe"],
