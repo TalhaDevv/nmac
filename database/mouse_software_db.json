@@ -1,56 +1,117 @@
 {
     "Logitech G HUB": {
-        "process_names": ["lghub.exe", "lghub_agent.exe", "lghub_updater.exe"],
-        "install_paths": ["LGHUB", "Logitech/G HUB"],
-        "registry_paths": ["SOFTWARE\\Logitech Gaming\\G-HUB"],
+        "process_names": ["lghub.exe", "lghub_agent.exe", "lghub_updater.exe", "lghub_system_tray.exe"],
+        "install_paths": [
+            "LGHUB",
+            "Logitech\\G HUB",
+            "Logitech G HUB",
+            "LGHUB\\system_tray"
+        ],
+        "registry_paths": [
+            "SOFTWARE\\Logitech Gaming\\G-HUB",
+            "SOFTWARE\\WOW6432Node\\Logitech Gaming\\G-HUB",
+            "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{CEE21516-EBED-4A2D-B556-C447781F4B98}_is1"
+            
+        ],
         "alt_names": ["Logi G Hub"],
         "risk_level": "medium"
     },
     "Logitech Gaming Software": {
         "process_names": ["lcore.exe", "lcorserv.exe"],
-        "install_paths": ["Logitech Gaming Software"],
-        "registry_paths": ["SOFTWARE\\Logitech\\Logitech Gaming Software"],
+        "install_paths": [
+            "Logitech Gaming Software"
+        ],
+        "registry_paths": [
+            "SOFTWARE\\Logitech\\Logitech Gaming Software",
+            "SOFTWARE\\WOW6432Node\\Logitech\\Logitech Gaming Software"
+        ],
         "risk_level": "low"
     },
     "Razer Synapse": {
         "process_names": ["rzsynapse.exe", "razercentral.exe", "razerappengine.exe"],
-        "install_paths": ["Razer\\Synapse", "Razer\\Razer Services"],
-        "registry_paths": ["SOFTWARE\\Razer Inc\\Razer Synapse"],
+        "install_paths": [
+            "Razer\\Synapse",
+            "Razer\\Razer Services",
+            "Razer Synapse",
+            "Razer\\RazerAppEngine" 
+        ],
+        "registry_paths": [
+            "SOFTWARE\\Razer Inc\\Razer Synapse",
+            "SOFTWARE\\WOW6432Node\\Razer Inc\\Razer Synapse",
+            "SOFTWARE\\Razer Inc\\RazerCentral"
+        ],
         "alt_names": ["RazerAppEngine"],
         "risk_level": "low"
     },
     "Bloody Software": {
         "process_names": ["bloody6.exe", "bloody7.exe","bloody8.exe", "bloodytool.exe", "BloodyWorkShop8.exe"],
-        "install_paths": ["Bloody"],
-        "registry_paths": ["SOFTWARE\\Bloody"],
+        "install_paths": [
+            "Bloody",
+            "Bloody Software"
+        ],
+        "registry_paths": [
+            "SOFTWARE\\Bloody",
+            "SOFTWARE\\WOW6432Node\\Bloody",
+            "SOFTWARE\\A4Tech\\Bloody"
+        ],
         "alt_names": ["BloodyEsport Software"],
         "risk_level": "low"
     },
     "SteelSeries Engine": {
         "process_names": ["steelseriesengine.exe", "steelseries-gg.exe"],
-        "install_paths": ["SteelSeries\\SteelSeries Engine"],
+        "install_paths": [
+            "SteelSeries\\SteelSeries Engine",
+            "SteelSeries\\SteelSeries GG" 
+        ],
+        "registry_paths": [
+            "SOFTWARE\\SteelSeries\\SteelSeries Engine",
+            "SOFTWARE\\WOW6432Node\\SteelSeries\\SteelSeries Engine",
+            "SOFTWARE\\SteelSeries\\SteelSeries GG"
+        ],
         "risk_level": "low"
     },
     "HyperX NGENUITY": {
         "process_names": ["hyperxngenuity.exe"],
-        "install_paths": ["HyperX\\NGENUITY"],
+        "install_paths": [
+            "HyperX\\NGENUITY",
+            "HyperX NGENUITY"
+        ],
+        "registry_paths": [
+            "SOFTWARE\\HyperX\\NGENUITY",
+            "SOFTWARE\\WOW6432Node\\HyperX\\NGENUITY"
+        ],
         "risk_level": "low"
     },
     "Glorious Model O Software": {
         "process_names": ["OemDrv.exe", "GloriousModelOSoftware.exe"],
-        "install_paths": ["Glorious", "Glorious Model O"],
-        "registry_paths": ["SOFTWARE\\Glorious"],
+        "install_paths": [
+            "Glorious",
+            "Glorious Model O",
+            "Glorious Model O Software"
+        ],
+        "registry_paths": [
+            "SOFTWARE\\Glorious",
+            "SOFTWARE\\WOW6432Node\\Glorious",
+            "SOFTWARE\\Glorious Model O Software"
+        ],
         "alt_names": ["Glorious Mouse Software"],
         "risk_level": "medium",
         "description": "Glorious Model O mouse için resmi yazılım"
     },
-
-    
     "Glorious Core": {
         "process_names": ["Glorious Core.exe", "Squirrel.exe"],
-        "install_paths": ["Glorious", "Squirrel"],
-        "registry_paths": ["SOFTWARE\\Glorious Core"],
-        "alt_names": ["Logi G Hub"],
+        "install_paths": [
+            "Glorious",
+            "Glorious Core",
+            "Squirrel",
+            "Glorious Core" 
+        ],
+        "registry_paths": [
+            "SOFTWARE\\Glorious Core",
+            "SOFTWARE\\WOW6432Node\\Glorious Core",
+            "SOFTWARE\\SquirrelMachineInstalls\\Glorious Core"
+        ],
+        "alt_names": ["Glorious Core Software"],
         "risk_level": "medium"
     }
 }
