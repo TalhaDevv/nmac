@@ -10,8 +10,10 @@
         "registry_paths": [
             "SOFTWARE\\Logitech Gaming\\G-HUB",
             "SOFTWARE\\WOW6432Node\\Logitech Gaming\\G-HUB",
-            "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{CEE21516-EBED-4A2D-B556-C447781F4B98}_is1"
-            
+            "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{CEE21516-EBED-4A2D-B556-C447781F4B98}_is1",
+            "SOFTWARE\\Logitech\\LGHUB", 
+            "SOFTWARE\\WOW6432Node\\Logitech\\LGHUB", 
+            "Software\\Logitech" 
         ],
         "alt_names": ["Logi G Hub"],
         "risk_level": "medium"
@@ -23,7 +25,8 @@
         ],
         "registry_paths": [
             "SOFTWARE\\Logitech\\Logitech Gaming Software",
-            "SOFTWARE\\WOW6432Node\\Logitech\\Logitech Gaming Software"
+            "SOFTWARE\\WOW6432Node\\Logitech\\Logitech Gaming Software",
+            "Software\\Logitech" 
         ],
         "risk_level": "low"
     },
@@ -38,7 +41,8 @@
         "registry_paths": [
             "SOFTWARE\\Razer Inc\\Razer Synapse",
             "SOFTWARE\\WOW6432Node\\Razer Inc\\Razer Synapse",
-            "SOFTWARE\\Razer Inc\\RazerCentral"
+            "SOFTWARE\\Razer Inc\\RazerCentral",
+            "Software\\Razer" 
         ],
         "alt_names": ["RazerAppEngine"],
         "risk_level": "low"
@@ -58,7 +62,14 @@
         "risk_level": "low"
     },
     "SteelSeries Engine": {
-        "process_names": ["steelseriesengine.exe", "steelseries-gg.exe", "SteelSeriesGG.exe"],
+        "process_names": [
+            "steelseriesengine.exe", 
+            "steelseries-gg.exe", 
+            "SteelSeriesGG.exe",
+            "SteelSeriesGGClient.exe",        
+            "SteelSeriesGGUpdateService.exe",  
+            "SteelSeriesGGUpdateServiceProxy.exe" 
+        ],
         "install_paths": [
             "SteelSeries\\SteelSeries Engine",
             "SteelSeries\\SteelSeries GG" 
@@ -66,7 +77,12 @@
         "registry_paths": [
             "SOFTWARE\\SteelSeries\\SteelSeries Engine",
             "SOFTWARE\\WOW6432Node\\SteelSeries\\SteelSeries Engine",
-            "SOFTWARE\\SteelSeries\\SteelSeries GG"
+            "SOFTWARE\\SteelSeries\\SteelSeries GG",
+            "SOFTWARE\\SteelSeries ApS\\SteelSeries GG",
+            "SOFTWARE\\SteelSeries", 
+            "SOFTWARE\\WOW6432Node\\SteelSeries", 
+            "SOFTWARE\\SteelSeries ApS", 
+            "SOFTWARE\\WOW6432Node\\SteelSeries ApS" 
         ],
         "risk_level": "low"
     },
@@ -79,6 +95,7 @@
         "registry_paths": [
             "SOFTWARE\\HyperX\\NGENUITY",
             "SOFTWARE\\WOW6432Node\\HyperX\\NGENUITY"
+        
         ],
         "risk_level": "low"
     },
