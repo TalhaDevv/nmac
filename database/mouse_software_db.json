@@ -58,7 +58,7 @@
         "risk_level": "low"
     },
     "SteelSeries Engine": {
-        "process_names": ["steelseriesengine.exe", "steelseries-gg.exe"],
+        "process_names": ["steelseriesengine.exe", "steelseries-gg.exe", "SteelSeriesGG.exe"],
         "install_paths": [
             "SteelSeries\\SteelSeries Engine",
             "SteelSeries\\SteelSeries GG" 
