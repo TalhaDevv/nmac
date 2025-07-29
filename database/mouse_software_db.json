@@ -20,7 +20,7 @@
         "risk_level": "low"
     },
     "Bloody Software": {
-        "process_names": ["bloody6.exe", "bloody7.exe","bloody8.exe", "bloodytool.exe"],
+        "process_names": ["bloody6.exe", "bloody7.exe","bloody8.exe", "bloodytool.exe", "BloodyWorkShop8.exe"],
         "install_paths": ["Bloody"],
         "registry_paths": ["SOFTWARE\\Bloody"],
         "alt_names": ["BloodyEsport Software"],
