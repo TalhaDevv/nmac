@@ -23,7 +23,7 @@
         "process_names": ["bloody6.exe", "bloody7.exe","bloody8.exe", "bloodytool.exe"],
         "install_paths": ["Bloody"],
         "registry_paths": ["SOFTWARE\\Bloody"],
-        "alt_names": ["BloodyEsport Software"]
+        "alt_names": ["BloodyEsport Software"],
         "risk_level": "low"
     },
     "SteelSeries Engine": {
