@@ -43,4 +43,13 @@
         "risk_level": "medium",
         "description": "Glorious Model O mouse için resmi yazılım"
     }
+
+    {
+    "Glorious Core": {
+        "process_names": ["Glorious Core.exe", "Squirrel.exe"],
+        "install_paths": ["Glorious", "Squirrel"],
+        "registry_paths": ["SOFTWARE\\Glorious Core"],
+        "alt_names": ["Logi G Hub"],
+        "risk_level": "medium"
+    },
 }
